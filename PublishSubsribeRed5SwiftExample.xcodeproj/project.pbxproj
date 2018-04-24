@@ -12,6 +12,18 @@
 		CA1047D1208F9E3700E0B3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1047CF208F9E3700E0B3FF /* Main.storyboard */; };
 		CA1047D3208F9E3900E0B3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1047D2208F9E3900E0B3FF /* Assets.xcassets */; };
 		CA1047D6208F9E3900E0B3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1047D4208F9E3900E0B3FF /* LaunchScreen.storyboard */; };
+		CA1047E1208F9F9A00E0B3FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047E0208F9F9A00E0B3FF /* libz.tbd */; };
+		CA1047E3208F9FBF00E0B3FF /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047E2208F9FBF00E0B3FF /* libstdc++.tbd */; };
+		CA1047E5208F9FE200E0B3FF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047E4208F9FE200E0B3FF /* libiconv.tbd */; };
+		CA1047E8208FA49D00E0B3FF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047E7208FA49C00E0B3FF /* OpenAL.framework */; };
+		CA1047EA208FA4AA00E0B3FF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047E9208FA4AA00E0B3FF /* CoreFoundation.framework */; };
+		CA1047EC208FA4B700E0B3FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047EB208FA4B700E0B3FF /* QuartzCore.framework */; };
+		CA1047EE208FA56000E0B3FF /* R5Streaming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1047ED208FA56000E0B3FF /* R5Streaming.framework */; };
+		CA1047F0208FA91D00E0B3FF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1047EF208FA91D00E0B3FF /* SecondViewController.swift */; };
+		CA1047F2208FA94300E0B3FF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1047F1208FA94300E0B3FF /* FirstViewController.swift */; };
+		CA1047F4208FA9E800E0B3FF /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1047F3208FA9E800E0B3FF /* SubscribeViewController.swift */; };
+		CA1047F6208FAA4E00E0B3FF /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1047F5208FAA4E00E0B3FF /* PublishViewController.swift */; };
+		CA1047F8208FAA7D00E0B3FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1047F7208FAA7D00E0B3FF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,19 @@
 		CA1047D2208F9E3900E0B3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1047D5208F9E3900E0B3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA1047D7208F9E3900E0B3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1047E0208F9F9A00E0B3FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CA1047E2208F9FBF00E0B3FF /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CA1047E4208F9FE200E0B3FF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CA1047E6208FA09700E0B3FF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CA1047E7208FA49C00E0B3FF /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		CA1047E9208FA4AA00E0B3FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CA1047EB208FA4B700E0B3FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA1047ED208FA56000E0B3FF /* R5Streaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = R5Streaming.framework; sourceTree = "<group>"; };
+		CA1047EF208FA91D00E0B3FF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CA1047F1208FA94300E0B3FF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CA1047F3208FA9E800E0B3FF /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		CA1047F5208FAA4E00E0B3FF /* PublishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
+		CA1047F7208FAA7D00E0B3FF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1047EC208FA4B700E0B3FF /* QuartzCore.framework in Frameworks */,
+				CA1047EA208FA4AA00E0B3FF /* CoreFoundation.framework in Frameworks */,
+				CA1047E8208FA49D00E0B3FF /* OpenAL.framework in Frameworks */,
+				CA1047E5208F9FE200E0B3FF /* libiconv.tbd in Frameworks */,
+				CA1047E3208F9FBF00E0B3FF /* libstdc++.tbd in Frameworks */,
+				CA1047E1208F9F9A00E0B3FF /* libz.tbd in Frameworks */,
+				CA1047EE208FA56000E0B3FF /* R5Streaming.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +70,10 @@
 		CA1047BF208F9E3600E0B3FF = {
 			isa = PBXGroup;
 			children = (
+				CA1047E6208FA09700E0B3FF /* README.md */,
 				CA1047CA208F9E3700E0B3FF /* PublishSubsribeRed5SwiftExample */,
 				CA1047C9208F9E3700E0B3FF /* Products */,
+				CA1047DF208F9F9A00E0B3FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,49 @@
 		CA1047CA208F9E3700E0B3FF /* PublishSubsribeRed5SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				CA1047DE208F9E8A00E0B3FF /* Subscribe */,
+				CA1047DD208F9E6F00E0B3FF /* Publish */,
 				CA1047CB208F9E3700E0B3FF /* AppDelegate.swift */,
 				CA1047CD208F9E3700E0B3FF /* ViewController.swift */,
 				CA1047CF208F9E3700E0B3FF /* Main.storyboard */,
 				CA1047D2208F9E3900E0B3FF /* Assets.xcassets */,
 				CA1047D4208F9E3900E0B3FF /* LaunchScreen.storyboard */,
 				CA1047D7208F9E3900E0B3FF /* Info.plist */,
+				CA1047F7208FAA7D00E0B3FF /* Constants.swift */,
 			);
 			path = PublishSubsribeRed5SwiftExample;
+			sourceTree = "<group>";
+		};
+		CA1047DD208F9E6F00E0B3FF /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				CA1047F1208FA94300E0B3FF /* FirstViewController.swift */,
+				CA1047F5208FAA4E00E0B3FF /* PublishViewController.swift */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		CA1047DE208F9E8A00E0B3FF /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				CA1047EF208FA91D00E0B3FF /* SecondViewController.swift */,
+				CA1047F3208FA9E800E0B3FF /* SubscribeViewController.swift */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		CA1047DF208F9F9A00E0B3FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1047ED208FA56000E0B3FF /* R5Streaming.framework */,
+				CA1047EB208FA4B700E0B3FF /* QuartzCore.framework */,
+				CA1047E9208FA4AA00E0B3FF /* CoreFoundation.framework */,
+				CA1047E7208FA49C00E0B3FF /* OpenAL.framework */,
+				CA1047E4208F9FE200E0B3FF /* libiconv.tbd */,
+				CA1047E2208F9FBF00E0B3FF /* libstdc++.tbd */,
+				CA1047E0208F9F9A00E0B3FF /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1047F0208FA91D00E0B3FF /* SecondViewController.swift in Sources */,
 				CA1047CE208F9E3700E0B3FF /* ViewController.swift in Sources */,
+				CA1047F6208FAA4E00E0B3FF /* PublishViewController.swift in Sources */,
 				CA1047CC208F9E3700E0B3FF /* AppDelegate.swift in Sources */,
+				CA1047F8208FAA7D00E0B3FF /* Constants.swift in Sources */,
+				CA1047F2208FA94300E0B3FF /* FirstViewController.swift in Sources */,
+				CA1047F4208FA9E800E0B3FF /* SubscribeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +356,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PRK9NET39;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PublishSubsribeRed5SwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +379,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5PRK9NET39;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PublishSubsribeRed5SwiftExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

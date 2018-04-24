@@ -51,7 +51,8 @@ class PublishViewController: R5VideoViewController, R5StreamDelegate {
     let camera = R5Camera(device: videoDevice, andBitRate: 750)
     //camera?.width = 640
     //camera?.height = 360
-    //camera?.orientation = 90
+    //add this orientation so that the subscription does not show a rotation
+    camera?.orientation = 90
     //audio
     let audioDevice = AVCaptureDevice.default(for: AVMediaType.audio)
     let microphone = R5Microphone(device: audioDevice)
